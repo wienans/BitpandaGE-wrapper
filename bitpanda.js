@@ -27,7 +27,7 @@ var Bitpanda = function (key, timeout, host) {
   this.timeout = timeout || 5000;
   this.host = host || 'api.exchange.bitpanda.com';
   this.private = false;
-  _.bindAll(this);
+  // _.bindAll(this);
 }
 
 Bitpanda.prototype._request = function (method, path, pdata, callback, args) {

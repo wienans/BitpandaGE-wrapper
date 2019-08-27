@@ -1,31 +1,30 @@
 {
-  "name": "bitpanda",
-  "version": "0.0.1",
-  "description": "Bitpanda API Wrapper",
+  "name": "bitpandage-wrapper",
+  "version": "1.0.1",
+  "description": "Wrapper for the Bitpanda GE REST API ",
+  "main": "bitpanda.js",
+  "dependencies": {
+    "https": "^1.0.0",
+    "querystring": "^0.2.0",
+    "underscore": "^1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wienans/BitpandaGE-wrapper.git"
+  },
   "keywords": [
     "bitpanda",
     "btc",
     "bitcoin"
   ],
-  "author": {
-    "name": "wienans",
-    "author": "wienans"
-  },
+  "author": "wienans <syntanic@web.de>",
   "license": "MIT",
-  "dependencies": {
-    "underscore": "1.4.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wienans/BitpandaGE-wrapper.git"
-  },
-  "main": "bitstamp.js",
-  "engines": {
-    "node": ">= 0.7"
-  },
   "bugs": {
-    "url": "https://github.com/wienans/BitpandaGE-wrapper.git/issues",
-    "email": "wienans@wienans.de"
+    "url": "https://github.com/wienans/BitpandaGE-wrapper/issues"
   },
-  "readmeFilename": "README.md"
+  "homepage": "https://github.com/wienans/BitpandaGE-wrapper#readme"
 }

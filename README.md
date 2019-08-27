@@ -1,6 +1,6 @@
 # Bitpanda GE REST API Wrapper
 
-    npm install 
+    npm install bitpandage-wrapper
 
 A basic API wrapper for the [Bitpanda Global Exchange REST API](https://developers.bitpanda.com/exchange/). Please refer to [their documentation](https://developers.bitpanda.com/exchange/) for all calls explained. Check out `example.js` for a list of all possible calls and their parameters.
 I forked the code from [askmike](https://github.com/askmike/bitstamp)'s Bitstamp API Wrapper and changed it to work with the Bitpanda REST APi.
@@ -13,13 +13,6 @@ bitpanda.transactions('btcusd', function(err, trades) {
   console.log(trades);
 });
 ``` -->
-# Dependencies
-This module depends on 
-
-    npm install querystring
-    npm install https
-    npm install underscore
-
 # Disclaimer
 I am not an Developer from Bitpanda. So this is only an Software made from a Bitpanda User to help other Bitpanda Users to interact with the API.
 # License
