@@ -13,6 +13,13 @@ bitpanda.transactions('btcusd', function(err, trades) {
   console.log(trades);
 });
 ``` -->
+# Dependencies
+This module depends on 
+
+    npm install querystring
+    npm install https
+    npm install underscore
+
 # Disclaimer
 I am not an Developer from Bitpanda. So this is only an Software made from a Bitpanda User to help other Bitpanda Users to interact with the API.
 # License
