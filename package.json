@@ -1,14 +1,15 @@
 {
-  "name": "bitstamp",
-  "version": "1.0.6",
-  "description": "Bitstamp REST API wrapper",
+  "name": "bitpanda",
+  "version": "0.0.1",
+  "description": "Bitpanda API Wrapper",
   "keywords": [
-    "bitstamp",
+    "bitpanda",
     "btc",
     "bitcoin"
   ],
   "author": {
-    "author": "Mike van Rossum <mike@mvr.me>"
+    "name": "wienans",
+    "author": "wienans"
   },
   "license": "MIT",
   "dependencies": {
@@ -16,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/askmike/bitstamp"
+    "url": "https://github.com/wienans/BitpandaGE-wrapper.git"
   },
   "main": "bitstamp.js",
   "engines": {
     "node": ">= 0.7"
   },
   "bugs": {
-    "url": "https://github.com/askmike/bitstamp/issues",
-    "email": "mike@mvr.me"
+    "url": "https://github.com/wienans/BitpandaGE-wrapper.git/issues",
+    "email": "wienans@wienans.de"
   },
   "readmeFilename": "README.md"
 }
