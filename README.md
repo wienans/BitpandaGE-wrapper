@@ -3,7 +3,7 @@
     npm install 
 
 A basic API wrapper for the [Bitpanda Global Exchange REST API](https://developers.bitpanda.com/exchange/). Please refer to [their documentation](https://developers.bitpanda.com/exchange/) for all calls explained. Check out `example.js` for a list of all possible calls and their parameters.
-I Forked the code from [askmike](https://github.com/askmike/bitstamp)'s Bitstamp API Wrapper and changed it to work with the Bitpanda REST APi.
+I forked the code from [askmike](https://github.com/askmike/bitstamp)'s Bitstamp API Wrapper and changed it to work with the Bitpanda REST APi.
 
 <!-- ```javascript
 var Bitpanda = require('bitpanda');
