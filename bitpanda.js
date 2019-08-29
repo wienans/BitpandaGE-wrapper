@@ -67,7 +67,7 @@ Bitpanda.prototype._request = function (method, path, pdata, callback, args) {
       }
       if (res.statusCode === 204) {
         var json = JSON.parse('{"order_deleted":true}');
-        return callback(json)
+        return callback(null, json)
       }
       try {
         var json = JSON.parse(buffer);
@@ -75,8 +75,8 @@ Bitpanda.prototype._request = function (method, path, pdata, callback, args) {
         return callback(err);
       }
       // console.log(buffer);
-      // callback(null, json);
-      callback(json);
+      callback(null, json);
+      // callback(json);
     });
   });
 
